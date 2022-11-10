@@ -27,7 +27,12 @@ In this tutorial, I will be explaining how to use regex to enforce requirements 
 
 ### Anchors
 
+In my example, the anchors I am using "^" denotes the start of a string, and "$" denotes the end of a string.
+
 ### Quantifiers
+
+In my example, there are three quantifiers. The two "+" signs, and the "{2,6}" is the third and final quantifier.
+Quantifiers are used to include the token preceeding the quantifier itself between zero and unlimited times. Not all quantifiers have to be included in the code hence the 0 times.
 
 ### OR Operator
 
