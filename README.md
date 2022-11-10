@@ -1,11 +1,13 @@
 # Maximos-Regex-Tutorial
 
-
 A brief summary and example of regex.  This example of regex will be used for email requirements.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this tutorial, I will be explaining how to use regex to enforce requirements for an email. Regex simplifies the coding process of adding requirements to a password or email. For reference, any further information provided in this tutorial will be in regards to the following code:
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
 
 ## Table of Contents
 
