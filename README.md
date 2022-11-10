@@ -34,23 +34,17 @@ In my example, the anchors I am using "^" denotes the start of a string, and "$"
 In my example, there are three quantifiers. The two "+" signs, and the "{2,6}" is the third and final quantifier.
 Quantifiers are used to include the token preceeding the quantifier itself between zero and unlimited times. Not all quantifiers have to be included in the code hence the 0 times.
 
-### OR Operator
-
 ### Character Classes
 
-### Flags
+Character classes or "sets" can be used to tell the regex engine to match one character out of several. In my example code it was used in the following code snippets: "[a-z0-9_.-]","[\da-z.-]", and "[a-z]".
 
 ### Grouping and Capturing
+
+Groups group multiple patters as a whole, and capturing groups provide extra submatch information when using a regular expression pattern to match against a string.
 
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
